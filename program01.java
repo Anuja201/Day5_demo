@@ -1,18 +1,18 @@
-package pratices;
+package pratices_demo2;
 
 import java.util.Scanner;
+
 
 public class program01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		Employee e1=new Employee(1, "Anu", 10000, 14, 10, 2005);
+		Emplyoee e1= new Emplyoee("mimeo@gmail.com","miemo",1,20000);
 		e1.displayEmployee();
 		
-		Employee e2=new Employee();
+		Emplyoee e2= new Emplyoee();
 		e2.acceptEmployee(sc);
-		e2.addVehicle(sc);
 		e2.displayEmployee();
 
 	}
